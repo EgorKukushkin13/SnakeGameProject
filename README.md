@@ -12,26 +12,26 @@
 Игровой процесс:
 В каждый момент времени в некоторой ячейке игрового поля находится яблоко (оно представляет собой ячейку красного цвета). Игрок съедает яблоко, если голова змейки попадает в ячейку с яблоком. После каждого съеденного яблока: на поле появляется новое яблоко, длина змейки увеличивается на 1 блок, скорость змейки возрастает на фиксированное значение, количество набранных очков увеличивается на 1.
 
-![Image alt](https://github.com/EgorKukushkin/SnakeGameProject/blob/dev/readme_images/begin.png)
+![Image alt](https://github.com/EgorKukushkin13/SnakeGameProject/blob/main/readme_images/begin.png)
 
 Также на игровом поле в случайный момент времени могут появится три различных типа "бонусов": ускоряющий, замедляющий, разворачивающий. Игрок съедает бонус, если голова змейки попадает в ячейку с бонусом.
 
-![Image alt](https://github.com/EgorKukushkin/SnakeGameProject/blob/dev/readme_images/game_process.png)
+![Image alt](https://github.com/EgorKukushkin13/SnakeGameProject/blob/main/readme_images/game_process.png)
 
 Ускоряющий:
 Данный предмет представляет собой ячейку желтого цвета. После того, как игрок съедает данный бонус, его скорость увеличивается на фиксированное значение (большее, чем при съедании яблока).
 
-![Image alt](https://github.com/EgorKukushkin/SnakeGameProject/blob/dev/readme_images/speeder.png)
+![Image alt](https://github.com/EgorKukushkin13/SnakeGameProject/blob/main/readme_images/speeder.png)
 
 Замедляющий:
 Данный предмет представляет собой ячейку ярко-розового цвета. После того, как игрок съедает данный бонус, его скорость уменьшается на фиксированное значение (но не может стать меньше изначальной скорости).
 
-![Image alt](https://github.com/EgorKukushkin/SnakeGameProject/blob/dev/readme_images/slower.png)
+![Image alt](https://github.com/EgorKukushkin13/SnakeGameProject/blob/main/readme_images/slower.png)
 
 Разворачивающий:
 Данный предмет представляет собой ячейку бирюзового цвета. После того, как игрок съедает данный бонус, голова змейки меняется местами с ее хвостом, и змейка начинает двигаться в обратном направлении (то есть разворачивается).
 
-![Image alt](https://github.com/EgorKukushkin/SnakeGameProject/blob/dev/readme_images/reverser.png)
+![Image alt](https://github.com/EgorKukushkin13/SnakeGameProject/blob/main/readme_images/reverser.png)
 
 Условия проигрыша:
 Игра будет окончена, если игрок либо врезался в препятсятвие (они отображаются на поле темно-коричневым цветом), либо если игрок врезался сам в себя. После проигрыша пользователь возвращается в стартовое меню.
@@ -46,26 +46,26 @@
 Кнопка Show records открывает раздел, в котором отображены макимальные количества набранных очков по уровням.
 Кнопка Exit позволяет закрыть окно меню и завершить программу.
 
-![Image alt](https://github.com/EgorKukushkin/SnakeGameProject/blob/dev/readme_images/main_menu.png)
+![Image alt](https://github.com/EgorKukushkin13/SnakeGameProject/blob/main/readme_images/main_menu.png)
 
 
 Описание выбора уровня:
 После открытия меню выбора уровня, для каждого уровня появляется своя кнопка, после нажатия на которую, будет выбран данный уровень, и произойдет автоматический возврат на стартовое меню. При этом пользователь может не выбирать уровень и просто вернуться обратно, нажав кнопку Back.
 
-![Image alt](https://github.com/EgorKukushkin/SnakeGameProject/blob/dev/readme_images/select_lvl_menu.png)
+![Image alt](https://github.com/EgorKukushkin13/SnakeGameProject/blob/main/readme_images/select_lvl_menu.png)
 
 
 Описание выбора уровня для редактирования:
 После открытия меню выбора уровня для редактирования,  для каждого уровня появляется своя кнопка, после нажатия на которую, будет открыт редактор с этим конкретным уровнем. Из этого меню можно вернуться в стартовое, нажав кнопку Back.
 
-![Image alt](https://github.com/EgorKukushkin/SnakeGameProject/blob/dev/readme_images/lvl_editor_menu.png)
+![Image alt](https://github.com/EgorKukushkin13/SnakeGameProject/blob/main/readme_images/lvl_editor_menu.png)
 
 
 Описание редактора уровней:
 После выбора конкретного уровня на экране появится текущая версия этого уровня. В редакторе пользователь может добавлять или убирать новые препятсятвия. Если нажать левой кнопкой мыши по ячейке, которая не является препятствием, то на ее месте появится препятствие. Если же нажать левой кнопкой мыши по ячейке, на месте которой стоит препятствие, то оно пропадет.
 
-![Image alt](https://github.com/EgorKukushkin/SnakeGameProject/blob/dev/readme_images/edit_lvl_1.png)
-![Image alt](https://github.com/EgorKukushkin/SnakeGameProject/blob/dev/readme_images/edit_lvl_2.png)
+![Image alt](https://github.com/EgorKukushkin13/SnakeGameProject/blob/main/readme_images/edit_lvl_1.png)
+![Image alt](https://github.com/EgorKukushkin13/SnakeGameProject/blob/main/readme_images/edit_lvl_2.png)
 
 Если пользователь хочет сохранить изменения, то он должен нажать клавишу S на клавиатуре, после чего изменения будут сохранены, и пользователь будет возвращен в предыдущее меню.
 Если же пользователь хочет не сохранять сделанные изменения, то он должен нажать клавишу Esc на клавиатуре, после чего изменения не будут сохранены, и пользователь будет возвращен в предыдущее меню.
@@ -75,4 +75,4 @@
 Описание выбора цвета змейки:
 После открытия меню выбора цвета, на экране появятся несколько кнопок, каждая из которых отвечает за свой цвет. После нажатия на кнопку с некоторым цветом, змейка на игровом поле будет отображаться с выбранным цветом, а пользователь будет возвращен в стартовое меню. При этом пользователь может не выбирать цвет и просто вернуться обратно, нажав кнопку Back.
 
-![Image alt](https://github.com/EgorKukushkin/SnakeGameProject/blob/dev/readme_images/ch_color_menu.png)
+![Image alt](https://github.com/EgorKukushkin13/SnakeGameProject/blob/main/readme_images/ch_color_menu.png)
